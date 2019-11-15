@@ -6,22 +6,50 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  text-align: center;
-}
-
 .cards {
   display: inline-block;
 }
 
 .card-content {
+  line-height: 1.5;
+}
 
+img {
+  width: 100px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h2 {
-
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 h3 {
+  font-style: italic;
+  font-size: .875rem;
+}
 
+p {
+  font-size: .875rem;
+}
+
+.card1 {
+  colour: #f2f2f2;
+}
+
+.card2 {
+  colour:#333;
+}
+
+.card3 {
+  colour:#e2e2e2;
+}
+
+.card4 {
+  colour:#ccc;
 }
