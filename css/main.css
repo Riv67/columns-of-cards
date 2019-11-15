@@ -1,55 +1,79 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .cards {
-  display: inline-block;
+  display: flex;
+  margin: 0;
+  padding: 1.5rem;
+  list-style-type: none;
 }
 
 .card-content {
-  line-height: 1.5;
+  display: inline-block;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem;
+  max-width: 20em;
 }
 
 img {
   width: 100px;
-  text-align: center;
+  display: block;
+  margin: 0 auto 1.5rem;
+  padding-top: .75rem;
 }
+
 h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
+  margin: 0;
 }
 
 h2 {
   font-size: 1rem;
   font-weight: bold;
+  margin: 0;
 }
 
 h3 {
   font-style: italic;
+  font-weight: normal;
   font-size: .875rem;
+  margin: 0;
 }
 
 p {
   font-size: .875rem;
+  margin: 0 0 1.5rem;
 }
 
 .card1 {
-  colour: #f2f2f2;
+  background-color: #f2f2f2;
+  border: 1px solid #999;
 }
 
 .card2 {
-  colour:#333;
+  background-color:#e2e2e2;
+  border: 1px solid #999;
 }
 
 .card3 {
-  colour:#e2e2e2;
+  background-color:#ccc;
+  border: 1px solid #999;
 }
 
 .card4 {
-  colour:#ccc;
+  background-color: #aaa;
+  border: 1px solid #999;
 }
