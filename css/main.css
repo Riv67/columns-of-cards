@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+
 }
 
 *, *::before, *::after {
@@ -10,10 +11,12 @@ html {
 
 body {
   margin: 0;
+  background-color: #f2f2f2;
 }
 
 .cards {
   display: flex;
+  flex-direction: row;
   margin: 0;
   padding: 1.5rem;
   list-style-type: none;
@@ -59,21 +62,33 @@ p {
 }
 
 .card1 {
-  background-color: #f2f2f2;
-  border: 1px solid #999;
+  background-color: #e2e2e2;
+  border: 1px solid #333;
 }
 
 .card2 {
-  background-color:#e2e2e2;
-  border: 1px solid #999;
+  background-color: #ccc;
+  border: 1px solid #333;
 }
 
 .card3 {
-  background-color:#ccc;
-  border: 1px solid #999;
+  background-color: #aaa;
+  border: 1px solid #333;
 }
 
 .card4 {
-  background-color: #aaa;
-  border: 1px solid #999;
+  background-color: #999;
+  border: 1px solid #333;
+}
+
+.btn {
+
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.btn-small {
+
 }
