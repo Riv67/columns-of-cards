@@ -90,23 +90,20 @@ p {
   border-right: 1px solid #333;
 }
 
-a:link,
-a:visited {
-  color: white;
-  text-decoration: none;
-  font-weight: normal;
-}
-
 .btn {
+  font-weight: normal;
   background-color: #333;
-  padding: .75rem;
-  border-radius: 10px;
-}
-
-.btn:hover {
-  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .btn-small {
   font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
