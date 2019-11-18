@@ -49,7 +49,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
-  padding-top: .75rem;
+  padding-top: 1.5rem;
 }
 
 h2 {
@@ -63,12 +63,14 @@ h3 {
   font-weight: normal;
   font-size: .875rem;
   margin: 0;
+  line-height: 1.5rem;
 }
 
 p {
   font-size: .875rem;
   margin: 0 0 1.5rem;
   flex-grow: 1;
+  padding: .75rem 0;
 }
 
 .card1 {
