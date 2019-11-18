@@ -22,7 +22,6 @@ body {
 
 .card {
   display: flex;
-  flex-direction: column;
   width: 25%;
   flex-direction: column;
   justify-content: space-between;
